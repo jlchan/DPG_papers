@@ -1,5 +1,35 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
+
+@article{gerritsmaEuler,
+author = {M. Gerritsma and R. van der Bas and B. De Maerschalck and B. Koren and H. Deconinck},
+title = {Least-squares spectral element method applied to the Euler equations},
+journal = {International Journal for Numerical Methods in Fluids},
+volume = {57},
+number = {9},
+publisher = {John Wiley & Sons, Ltd.},
+issn = {1097-0363},
+url = {http://dx.doi.org/10.1002/fld.1756},
+doi = {10.1002/fld.1756},
+pages = {1371--1395},
+keywords = {spectral element methods, least-squares formulation, Euler equations},
+year = {2008}
+}
+
+@article{lsqUltraWeak,
+   author = {H. {Chen} and G. {Fu} and J. {Li} and W. {Qiu}},
+    title = "{First order least square method with ultra-weakly imposed boundary condition for convection dominated diffusion problems}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1309.7108},
+ primaryClass = "math.NA",
+ keywords = {Mathematics - Numerical Analysis},
+     year = 2013,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1309.7108C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @article{raviart1977primal,
   title={Primal hybrid finite element methods for 2nd order elliptic equations},
   author={P. A. Raviart and J. M. Thomas},
@@ -306,26 +336,16 @@ author = "T. J. R. Hughes and G. R. Feijoo and L. Mazzei and J. Quincy"
   isbn = {978-3-642-23098-1},
 }
 
-@TechReport{DPGrobustness2,
- author =       {J. Chan and N. Heuer and T. Bui-Thanh and L. Demkowicz},
- title =        {Robust {DPG} Method for
-Convection-dominated Diffusion Problems {II}: {A} natural inflow condition},
- institution =  {ICES},
- year =         {2012},
- number =       {21},
- month =        {June},
- note =         {submitted to Comput. Math. Appl.},
-}
 
-@TechReport{ChanHeuerBui-ThanhDemkowicz12,
+@article{DPGrobustness2,
  author =       {J. Chan and N. Heuer and T. Bui-Thanh and L. Demkowicz},
- title =        {Robust {DPG} Method for
-Convection-dominated Diffusion Problems {II}: {A} natural inflow condition},
- institution =  {ICES},
- year =         {2012},
- number =       {21},
- month =        {June},
- note =         {submitted to Comput. Math. Appl.},
+title = "A robust \{DPG\} method for convection-dominated diffusion problems II: Adjoint boundary conditions and mesh-dependent test norms ",
+journal = "Computers and Mathematics with Applications ",
+year = "2013",
+note = "In Press, Corrected Proof",
+issn = "0898-1221",
+doi = "http://dx.doi.org/10.1016/j.camwa.2013.06.010",
+url = "http://www.sciencedirect.com/science/article/pii/S0898122113003751"
 }
 
 @TechReport{broersenStevenson,
@@ -446,12 +466,22 @@ masid = {15266104}
   timestamp = {2011.11.08}
 }
   
-@techreport{DPGrobustness,
+  
+
+
+
+
+
+@article{DPGrobustness,
   Author = {L. Demkowicz and N. Heuer},
   Title = {{R}obust {DPG} method for convection-dominated diffusion problems},
-  Number = {11-33},
-  Institution = {ICES},
-  Year = {2011}}
+journal = {SIAM Journal on Numerical Analysis},
+volume = {51},
+number = {5},
+pages = {2514-2537},
+year = {2013},
+doi = {10.1137/120862065},
+}
 
 @techreport{Camellia,
 	Author = {N. Roberts  and D. Ridzal  and P. Bochev and L. Demkowicz},
@@ -507,12 +537,22 @@ masid = {15266104}
  keywords = {Convection-dominated diffusion, Discontinuous Petrov-Galerkin, hp-Adaptivity},
 } 
 
-@techreport{DPG3,
-	Author = {L. Demkowicz and J. Gopalakrishnan and A. Niemi},
-	Institution = {ICES},
-	Number = {10-01},
-	Title = {A class of discontinuous {P}etrov-{G}alerkin methods. {III}. {A}daptivity},
-	Year = 2010}
+@article{DPG3,
+Author = {L. Demkowicz and J. Gopalakrishnan and A. Niemi},
+ title = {A Class of Discontinuous Petrov-Galerkin Methods. Part III: Adaptivity},
+ journal = {Appl. Numer. Math.},
+ issue_date = {April, 2012},
+ volume = {62},
+ number = {4},
+ month = apr,
+ year = {2012},
+ issn = {0168-9274},
+ pages = {396--427},
+ numpages = {32},
+ url = {http://dx.doi.org/10.1016/j.apnum.2011.09.002},
+ doi = {10.1016/j.apnum.2011.09.002},
+ acmid = {2151463},
+} 
 
 @article{DBLP:journals/procedia/NiemiCC11,
 	Author = {A. Niemi and N. Collier and V. Calo},
@@ -551,19 +591,24 @@ masid = {15266104}
  keywords = {\$hp\$, Helmholtz decomposition, adaptive, convection-diffusion, discontinuous Galerkin, discontinuous Petrov-Galerkin method, finite element method},
 } 
 
-@techreport{practicalDPG,
+@article{practicalDPG,
 	Author = {J. Gopalakrishnan and W. Qiu},
-	Institution = {IMA},
-	Note = {submitted},
+	Journal = {Mathematics of Computation},
+	Volume="230",
+	Number={286},
+	Pages={537-552},
 	Title = {An analysis of the practical {DPG} method},
-	Year = 2011}
+	Year = 2013}
 
 @article{DPG1,
-	Author = {L. Demkowicz and J. Gopalakrishnan},
-	Journal = {Comput. Methods Appl. Mech. Engrg.},
-	Note = {accepted, see also ICES Report 2009-12},
-	Title = {A Class of Discontinuous {Petrov-Galerkin} Methods. {Part I}: The Transport Equation},
-	Year = {2009}}
+Author = {L. Demkowicz and J. Gopalakrishnan},
+title = "A class of discontinuous {P}etrov-{G}alerkin methods. {Part I}: The transport equation ",
+journal = "Computer Methods in Applied Mechanics and Engineering ",
+volume = "199",
+number = "23-24",
+pages = "1558 - 1572",
+year = "2010"
+}
 
 @article{DPG4,
 title = {A class of discontinuous {P}etrov–{G}alerkin methods. {P}art {IV}: The optimal test norm and time-harmonic wave propagation in 1{D}},
